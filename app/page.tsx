@@ -93,7 +93,30 @@ Technology</p>
               <Image src={p9} alt="" />
               <Image src={p10} alt="" />
               <Image src={p11} alt="" />
-             
+          </div>
+        </div>
+        <div className='border-white mt-10  border-t'></div>
+        <div className='md:mx-20 space-x-4 mx-5 mt-10 flex justify-between text-white'>
+          <div className=' flex flex-col-reverse'><p>  Copyright © 2022 Chloris Geospatial Inc. All rights reserved.</p></div>
+          <div className='hidden md:block'></div>
+          <div><p className=' text-sm'>QUICK LINKS</p>
+            <p className='md:mt-5 mt-3 underline'> Home</p>
+            <p className=' underline'> Platform</p>
+            <p className=' underline'> Insights</p>
+            <p className=' underline'> About Us</p>
+            <p className=' underline'> Contact</p>
+            <p className=' underline'> Newsletter</p>
+          </div>
+          <div className='flex flex-col justify-between'>
+            <div>
+            <p>info@xyz.earth</p>
+            <p>@geo</p>
+            </div>
+            <div>
+              <button className='border border-white text-white px-6 py-2'>
+      CAREERS
+              </button>
+            </div>
           </div>
         </div>
       </div>
