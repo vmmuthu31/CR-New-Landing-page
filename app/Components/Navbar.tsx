@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    <div className="bg-white">
+        <div className="bg-[#F3F8F4]">
         <div className='flex items-center justify-between py-1 px-10'>
             <Image src={logo} alt="" />
             <div>

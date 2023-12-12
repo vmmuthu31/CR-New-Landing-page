@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Navbar from './Components/Navbar'
 import hero from "../assets/hero.png";
 import model from "../assets/model.png";
+import skew from "../assets/skew.png";
 
 export default function Home() {
   return (
@@ -22,7 +23,18 @@ Solutions </span>with Speed, Scale
         <button className='border border-white px-6 py-3'> CONTACT US</button>
         </div>
         </div>
-        <Image src={model} alt="" className='md:mt-28 mt-5' />
+        <Image src={model} alt="" className='md:my-10 mt-5' />
+      </div>
+      <div className='border-white mt-10 md:mt-20 border-t'></div>
+      <div>
+        <p className='text-center md:text-5xl text-xl font-normal text-white mt-8 md:mt-16'>Use our REDD+ Models to transition to VM0048</p>
+        <div className='md:ml-60 mt-5 ml-8'>
+        <Image src={skew} alt="" />
+        </div>
+      </div>
+      <div className='border-white mt-10 border-t'></div>
+      <div className=' mt-10 md:mt-24'>
+        <p className='md:text-6xl text-xl ml-10 md:ml-40 text-white'>Our <span className='font-bold'>Technology</span></p>
       </div>
     </main>
   )
