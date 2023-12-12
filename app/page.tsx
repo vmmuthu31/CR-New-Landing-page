@@ -3,6 +3,10 @@ import Navbar from './Components/Navbar'
 import hero from "../assets/hero.png";
 import model from "../assets/model.png";
 import skew from "../assets/skew.png";
+import tech1 from "../assets/tech1.png";
+import tech2 from "../assets/tech2.png";
+import tech3 from "../assets/tech3.png";
+import tech4 from "../assets/tech4.png";
 
 export default function Home() {
   return (
@@ -34,7 +38,34 @@ Solutions </span>with Speed, Scale
       </div>
       <div className='border-white mt-10 border-t'></div>
       <div className=' mt-10 md:mt-24'>
-        <p className='md:text-6xl text-xl ml-10 md:ml-40 text-white'>Our <span className='font-bold'>Technology</span></p>
+        <p className='md:text-6xl text-3xl ml-10 md:ml-40 text-white'>Our <span className='font-bold'>Technology</span></p>
+        <div className='flex md:mx-40 mt-8 md:mt-20 mx-5 justify-between flex-col md:flex-row md:space-x-24'>
+          <div className='flex my-5 space-x-3'>
+              <Image className='h-16 w-auto' src={tech1} alt="" />
+              <div><p className='text-white text-xl'>Global Spaceborne LiDAR 
+Measurements</p>
+              <p className='text-white mt-2 font-thin text-sm'> Employing advanced LiDAR technology from space allows us to create high-resolution 3D maps of forests. This precise data enables accurate assessments of carbon density and structural changes</p></div>
+          </div>
+          <div className='flex space-x-3 '>
+              <Image className='h-16 w-auto' src={tech2} alt="" />
+              <div><p className='text-white text-xl'>Cutting-edge Sensor-Fusion 
+Technology</p>
+              <p className='text-white mt-2 font-thin text-sm'>Our innovative sensor-fusion technology seamlessly integrates data from various sources, providing a holistic view of forest ecosystems. By combining diverse datasets, we enhance the accuracy and reliability of our analyses</p></div>
+          </div>
+        </div>
+        <div className='flex md:mx-40 mx-5 md:mt-20 justify-between flex-col md:flex-row md:space-x-10'>
+          <div className='flex my-10   space-x-3'>
+              <Image className='h-16 w-auto' src={tech3} alt="" />
+              <div><p className='text-white text-xl'>Proprietary ML & AI</p>
+              <p className='text-white mt-2 font-thin text-sm'> Chloris leverages proprietary Machine Learning (ML) and Artificial Intelligence (AI) algorithms to process vast amounts of data swiftly. This enables us to identify patterns, trends, and anomalies crucial for understanding and predicting forest carbon dynamics</p></div>
+          </div>
+          <div className='flex space-x-3 '>
+              <Image className='h-16 w-auto' src={tech4} alt="" />
+              <div><p className='text-white text-xl'>Robust Predictions</p>
+              <p className='text-white mt-2 font-thin text-sm'>Our platform goes beyond mere data analysis; it generates robust predictions for future carbon trends. By assimilating historical data and real-time inputs, Chloris equips users with actionable insights to proactively address climate and conservation challenges.</p></div>
+          </div>
+        </div>
+
       </div>
     </main>
   )
