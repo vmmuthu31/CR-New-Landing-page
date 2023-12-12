@@ -7,6 +7,17 @@ import tech1 from "../assets/tech1.png";
 import tech2 from "../assets/tech2.png";
 import tech3 from "../assets/tech3.png";
 import tech4 from "../assets/tech4.png";
+import p1 from "../assets/p1.png";
+import p2 from "../assets/p2.png";
+import p3 from "../assets/p3.png";
+import p4 from "../assets/p4.png";
+import p5 from "../assets/p5.png";
+import p6 from "../assets/p6.png";
+import p7 from "../assets/p7.png";
+import p8 from "../assets/p8.png";
+import p9 from "../assets/p9.png";
+import p10 from "../assets/p10.png";
+import p11 from "../assets/p11.png";
 
 export default function Home() {
   return (
@@ -40,7 +51,7 @@ Solutions </span>with Speed, Scale
       <div className=' mt-10 md:mt-24'>
         <p className='md:text-6xl text-3xl ml-10 md:ml-40 text-white'>Our <span className='font-bold'>Technology</span></p>
         <div className='flex md:mx-40 mt-8 md:mt-20 mx-5 justify-between flex-col md:flex-row md:space-x-24'>
-          <div className='flex my-5 space-x-3'>
+          <div className='flex my-5 md:my-0 space-x-3'>
               <Image className='h-16 w-auto' src={tech1} alt="" />
               <div><p className='text-white text-xl'>Global Spaceborne LiDAR 
 Measurements</p>
@@ -54,7 +65,7 @@ Technology</p>
           </div>
         </div>
         <div className='flex md:mx-40 mx-5 md:mt-20 justify-between flex-col md:flex-row md:space-x-10'>
-          <div className='flex my-10   space-x-3'>
+          <div className='flex my-10  md:my-0  space-x-3'>
               <Image className='h-16 w-auto' src={tech3} alt="" />
               <div><p className='text-white text-xl'>Proprietary ML & AI</p>
               <p className='text-white mt-2 font-thin text-sm'> Chloris leverages proprietary Machine Learning (ML) and Artificial Intelligence (AI) algorithms to process vast amounts of data swiftly. This enables us to identify patterns, trends, and anomalies crucial for understanding and predicting forest carbon dynamics</p></div>
@@ -65,7 +76,26 @@ Technology</p>
               <p className='text-white mt-2 font-thin text-sm'>Our platform goes beyond mere data analysis; it generates robust predictions for future carbon trends. By assimilating historical data and real-time inputs, Chloris equips users with actionable insights to proactively address climate and conservation challenges.</p></div>
           </div>
         </div>
-
+        <div className='border-white mt-10 md:mt-20 border-t'></div>
+        <div className='md:ml-40 mx-5 mt-10'>
+          <p className='text-white font-light '>OUR PARTNERS</p>
+          <div className='flex items-center  flex-wrap flex-grow md:space-x-5 mt-5'>
+              <Image src={p1} alt="" />
+              <Image src={p2} alt="" />
+              <Image src={p3} alt="" />
+              <Image src={p4} alt="" />
+              <Image src={p5} alt="" />
+              <Image src={p6} alt="" />
+              <Image src={p7} alt="" />
+              <Image src={p8} alt="" />
+          </div>
+          <div className='flex items-center  flex-wrap md:space-x-5 mt-5'>
+              <Image src={p9} alt="" />
+              <Image src={p10} alt="" />
+              <Image src={p11} alt="" />
+             
+          </div>
+        </div>
       </div>
     </main>
   )
