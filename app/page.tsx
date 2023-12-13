@@ -52,25 +52,24 @@ export default function Home() {
           <div className='flex my-5 md:my-0 space-x-3'>
               <Image className='h-16 w-auto' src={tech1} alt="" />
               <div><p className='text-white text-xl'>Global Satellite Data</p>
-              <p className='text-white mt-2 font-thin text-sm'> Employing advanced LiDAR technology from space allows us to create high-resolution 3D maps of forests. This precise data enables accurate assessments of carbon density and structural changes</p></div>
+              <p className='text-white mt-2 font-thin text-sm'>Our approach incorporates worldwide satellite data, which is updated on an average every 15 days. This data is sourced from various providers and includes different types such as SAR and Lidar technologies, ensuring a comprehensive and integrated dataset.</p></div>
           </div>
           <div className='flex space-x-3 '>
               <Image className='h-16 w-auto' src={tech2} alt="" />
-              <div><p className='text-white text-xl'>Cutting-edge Sensor-Fusion 
-Technology</p>
-              <p className='text-white mt-2 font-thin text-sm'>Our innovative sensor-fusion technology seamlessly integrates data from various sources, providing a holistic view of forest ecosystems. By combining diverse datasets, we enhance the accuracy and reliability of our analyses</p></div>
+              <div><p className='text-white text-xl'>Fusion of Data, Research & Ground Observation</p>
+              <p className='text-white mt-2 font-thin text-sm'>We combine data from sensors with on-the-ground observations and insights from research publications to create comprehensive and well-rounded models.</p></div>
           </div>
         </div>
         <div className='flex md:mx-40 mx-5 md:mt-20 justify-between flex-col md:flex-row md:space-x-10'>
           <div className='flex my-10  md:my-0  space-x-3'>
               <Image className='h-16 w-auto' src={tech3} alt="" />
               <div><p className='text-white text-xl'>Proprietary ML & AI</p>
-              <p className='text-white mt-2 font-thin text-sm'> Chloris leverages proprietary Machine Learning (ML) and Artificial Intelligence (AI) algorithms to process vast amounts of data swiftly. This enables us to identify patterns, trends, and anomalies crucial for understanding and predicting forest carbon dynamics</p></div>
+              <p className='text-white mt-2 font-thin text-sm'> We utilize custom-developed AI and ML technologies to rapidly analyze large datasets. Our approach facilitates the detection of key patterns, shifts, and irregularities, essential for analyzing and forecasting the behavior of nature based solutions. </p></div>
           </div>
           <div className='flex space-x-3 '>
               <Image className='h-16 w-auto' src={tech4} alt="" />
               <div><p className='text-white text-xl'>Robust Predictions</p>
-              <p className='text-white mt-2 font-thin text-sm'>Our platform goes beyond mere data analysis; it generates robust predictions for future carbon trends. By assimilating historical data and real-time inputs, Chloris equips users with actionable insights to proactively address climate and conservation challenges.</p></div>
+              <p className='text-white mt-2 font-thin text-sm'>We deliver accurate predictions of potential risks in specific areas, like the likelihood of deforestation within a conservation zone. This information empowers our users to make informed decisions.</p></div>
           </div>
         </div>
         <div className='border-white mt-10 md:mt-20 border-t'></div>
