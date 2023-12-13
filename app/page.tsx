@@ -52,7 +52,7 @@ export default function Home() {
           <div className='flex my-5 md:my-0 space-x-3'>
               <Image className='h-16 w-auto' src={tech1} alt="" />
               <div><p className='text-white text-xl'>Global Satellite Data</p>
-              <p className='text-white mt-2 font-thin text-sm'>Our approach incorporates worldwide satellite data, which is updated on an average every 15 days. This data is sourced from various providers and includes different types such as SAR and Lidar technologies, ensuring a comprehensive and integrated dataset.</p></div>
+              <p className='text-white mt-2 font-thin md:w-[580px] text-sm'>Our approach incorporates worldwide satellite data, which is updated on an average every 15 days. This data is sourced from various providers and includes different types such as SAR and Lidar technologies, ensuring a comprehensive and integrated dataset.</p></div>
           </div>
           <div className='flex space-x-3 '>
               <Image className='h-16 w-auto' src={tech2} alt="" />
