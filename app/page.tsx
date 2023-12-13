@@ -72,7 +72,7 @@ export default function Home() {
               <p className='text-white mt-2 font-thin text-sm'>We deliver accurate predictions of potential risks in specific areas, like the likelihood of deforestation within a conservation zone. This information empowers our users to make informed decisions.</p></div>
           </div>
         </div>
-        <div className='border-white mt-10 md:mt-20 border-t'></div>
+        {/* <div className='border-white mt-10 md:mt-20 border-t'></div>
         <div className='md:ml-40 mx-5 mt-10'>
           <p className='text-white font-light '>OUR PARTNERS</p>
           <div className='flex items-center  flex-wrap flex-grow md:space-x-5 mt-5'>
@@ -90,7 +90,7 @@ export default function Home() {
               <Image src={p10} alt="" />
               <Image src={p11} alt="" />
           </div>
-        </div>
+        </div> */}
         <div className='border-white mt-10  border-t'></div>
         <div className='md:mx-20 space-x-4 mx-5 mt-10 flex justify-between text-white'>
           <div className=' flex flex-col-reverse'><p>  Copyright © 2022 Chloris Geospatial Inc. All rights reserved.</p></div>
