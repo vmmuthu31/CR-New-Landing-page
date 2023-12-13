@@ -25,15 +25,13 @@ export default function Home() {
       <Navbar />
       <div>
       <Image className='w-full  h-auto' src={hero} alt="" />
-      <p className='absolute md:top-52 top-[109px] text-[12px] right-14 text-center md:right-48 md:font-bold md:text-5xl'> REDD+ Models <br/> Aligned with <br/> Global <br/> Standards</p>
+      <p className="absolute md:top-60 top-[121px] text-[8.8px] right-[46.5px] text-center md:right-[185px] md:font-semibold md:text-[30px]"> Carbon Credit Origination <br/>  Models in Compliance with<br/> International Standards  </p>
       </div>     
       <div className='flex md:flex-row flex-col-reverse justify-between my-4 md:my-8'>
-        <div className='text-[#FFF]'>
+        <div className='text-[#FFF] mt-8'>
           <p className='md:text-6xl text-3xl font-normal mt-5 md:mt-0 mx-10 md:mx-20'>REDD+ Models <br/> Aligned with Global Standards</p>
-          <p className='md:text-3xl text-lg font-light mt-5 md:mt-10 mx-10 md:mx-20 mr-32'>Adopt<span className=' font-bold'> Nature-based <br/>
-Solutions </span>with Speed, Scale 
-& Integrity</p>
-<p className='mx-10 md:mx-20 mt-5 md:mt-10'>Our web-based platform, Chloris, pioneers a new era in forest carbon intelligence. We harness the power of space to provide direct estimates of carbon stock and change. From massive deforestation to the subtle nuances of growth and regrowth, Chloris interprets the language of our planet. No site is too vast or too small — Chloris paints a comprehensive picture for effective climate and nature action. Our customers leverage Chloris insights and analytics to navigate the complex landscape of conservation</p>
+          <p className='md:text-3xl text-lg font-light mt-5 md:mt-10 mx-10 md:mx-20 mr-32'>Rapid Modeling of Nature Based Solutions at Scale, Speed and Accuracy</p>
+<p className='mx-10 md:mx-20 mt-5 md:mt-10'>Our digital platform, revolutionizes forest carbon analysis using satellite technology and AI/ML models. It deciphers Earth's subtle and extensive ecological changes, offering precise carbon data. This enables users to effectively navigate the complexities of environmental conservation.</p>
 <div className='mx-10 md:mx-20 flex justify-center mt-5 md:mt-10'>
         <button className='border border-white px-6 py-3'> CONTACT US</button>
         </div>
@@ -53,8 +51,7 @@ Solutions </span>with Speed, Scale
         <div className='flex md:mx-40 mt-8 md:mt-20 mx-5 justify-between flex-col md:flex-row md:space-x-24'>
           <div className='flex my-5 md:my-0 space-x-3'>
               <Image className='h-16 w-auto' src={tech1} alt="" />
-              <div><p className='text-white text-xl'>Global Spaceborne LiDAR 
-Measurements</p>
+              <div><p className='text-white text-xl'>Global Satellite Data</p>
               <p className='text-white mt-2 font-thin text-sm'> Employing advanced LiDAR technology from space allows us to create high-resolution 3D maps of forests. This precise data enables accurate assessments of carbon density and structural changes</p></div>
           </div>
           <div className='flex space-x-3 '>
