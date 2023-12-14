@@ -8,8 +8,7 @@ import { Dialog } from '@headlessui/react'
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Insight us', href: '#' },
-  { name: 'About us', href: '#' },
+  { name: 'About us', href: '/About' },
 ]
 
 function Navbar() {
