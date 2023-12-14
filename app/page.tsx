@@ -25,7 +25,7 @@ export default function Home() {
       <Navbar />
       <div>
       <Image className='w-full  h-auto' src={hero} alt="" />
-      <p className="absolute md:top-60 top-[121px] text-[8.8px] right-[46.5px] text-center md:right-[185px] md:font-semibold md:text-[30px]"> Carbon Credit Origination <br/>  Models in Compliance with<br/> International Standards  </p>
+      <p className="absolute md:top-48 top-[125px] text-[8.8px] right-[54.5px] text-center md:right-[171px] font-semibold md:text-[37px]"> Carbon Credit <br/> Origination   Models in <br/> Compliance with<br/> International Standards  </p>
       </div>     
       <div className='flex md:flex-row flex-col-reverse justify-between my-4 md:my-8'>
         <div className='text-[#FFF] mt-8'>
