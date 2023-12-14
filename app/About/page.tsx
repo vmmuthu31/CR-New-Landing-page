@@ -2,8 +2,8 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import logo from "../../assets/logo-1.png"
 import Image from 'next/image'
-import imgdata from "../../assets/Image.png"
-import linkedin from "../../assets/linkedIn.png"
+import imgdata from "../../assets/image.png"
+import linkedin from "../../assets/linkedin.png"
 import twitter from "../../assets/twitter.png"
 import dribble from "../../assets/dribble.png"
 
