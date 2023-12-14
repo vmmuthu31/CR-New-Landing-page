@@ -2,6 +2,11 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import logo from "../../assets/logo-1.png"
 import Image from 'next/image'
+import imgdata from "../../assets/Image.png"
+import linkedin from "../../assets/LinkedIn.png"
+import twitter from "../../assets/Twitter.png"
+import dribble from "../../assets/Dribble.png"
+
 
 function page() {
   return (
@@ -17,19 +22,53 @@ function page() {
         </div>
         <Image className='md:w-[360px] hidden md:block md:h-[380px]'  src={logo} alt="" />
       </div>
-      <div className=' md:py-20 md:px-20'> 
-        <p>Our Team</p>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <p>Sujit Ghosh, Ph.D.</p>
-            <p>CEO</p>
-            <p> REDD+ Specialist, experienced in Carbon Market and remote sensing applications in forestry with a Ph.D from IIT KGP</p>
-            <div>
-
+      <div className=' md:py-20 md:px-20 px-10 py-5'> 
+        <p className='md:text-4xl  font-bold'>Our Team</p>
+        <div className='flex md:flex-row space-x-0 md:space-x-5 flex-col justify-between space-y-8 md:space-y-0 my-10 md:mx-10'>
+          <div className='flex flex-col  space-y-1 text-center item-center justify-center'>
+            <div className='flex  justify-center'>
+            <Image src={imgdata} alt="" />
             </div>
-          </div>
+            <p className=' md:text-xl  font-bold' >Sujit Ghosh, Ph.D.</p>
+            <p>CEO</p>
+            <p className='md:w-[400px]'> REDD+ Specialist, experienced in Carbon Market and remote sensing applications in forestry with a Ph.D from IIT KGP</p>           
+            <div className='flex justify-center space-x-2 pt-1'>
+              <Image src={linkedin} alt="" />
+              <Image src={twitter} alt="" />
+              <Image src={dribble} alt="" />
+            </div>
         </div>
+        <div className='flex space-y-1 flex-col text-center item-center justify-center'>
+        <div className='flex  justify-center'>
+            <Image src={imgdata} alt="" />
+            </div>
+            <p className=' md:text-xl  font-bold' >Durga Prasad</p>
+            <p>Lead Program Manager</p>
+            <p className='md:w-[400px]'> Expert in carbon markets, with skills in ratings, remote sensing, team leadership, and stakeholder engagement.</p>      
+            <div className='flex justify-center space-x-2 pt-1'>
+              <Image src={linkedin} alt="" />
+              <Image src={twitter} alt="" />
+              <Image src={dribble} alt="" />
+            </div>     
+        </div>
+        <div className='flex space-y-1 flex-col text-center item-center justify-center'>
+        <div className='flex  justify-center'>
+            <Image src={imgdata} alt="" />
+            </div>
+            <p className=' md:text-xl  font-bold' >Sujit Ghosh, Ph.D.</p>
+            <p>CEO</p>
+            <p className='md:w-[450px]'> <span className=' font-bold'> Experience:</span> Specialist in geospatial data analysis and spatial ecology. Proficient in forest cover change monitoring, land cover, and vegetation dynamics modelling.
+            <br/>
+            <span className=' font-bold'>Skills:</span> Proficient in ArcGIS, ERDAS, ENVI, Q-GIS, SPSS, Statistica, R, Google Earth Engine (GEE), Python.
+            </p>           
+            <div className='flex justify-center space-x-2 pt-1'>
+              <Image src={linkedin} alt="" />
+              <Image src={twitter} alt="" />
+              <Image src={dribble} alt="" />
+            </div>
+        </div>
+        
+      </div>
       </div>
     </div>
   )
