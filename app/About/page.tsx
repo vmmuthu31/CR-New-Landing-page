@@ -3,9 +3,9 @@ import Navbar from '../Components/Navbar'
 import logo from "../../assets/logo-1.png"
 import Image from 'next/image'
 import imgdata from "../../assets/Image.png"
-import linkedin from "../../assets/LinkedIn.png"
-import twitter from "../../assets/Twitter.png"
-import dribble from "../../assets/Dribble.png"
+import linkedin from "../../assets/linkedIn.png"
+import twitter from "../../assets/twitter.png"
+import dribble from "../../assets/dribble.png"
 
 
 function page() {
