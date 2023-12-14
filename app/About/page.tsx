@@ -19,6 +19,17 @@ function page() {
       </div>
       <div>
         <p>Our Team</p>
+        <div>
+          <div>
+            <img src="" alt="" />
+            <p>Sujit Ghosh, Ph.D.</p>
+            <p>CEO</p>
+            <p> REDD+ Specialist, experienced in Carbon Market and remote sensing applications in forestry with a Ph.D from IIT KGP</p>
+            <div>
+              
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
