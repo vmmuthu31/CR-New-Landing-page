@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo-1.png"
 import Image from 'next/image'
 
 function page() {
