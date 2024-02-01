@@ -41,7 +41,7 @@ export default function Home() {
       <div className='border-white mt-10 md:mt-20 border-t'></div>
       <div>
         <p className='text-center md:text-5xl text-xl font-normal text-white mt-8 md:mt-16'>Use our REDD+ Models to transition to VM0048</p>
-        <div className='md:ml-60 mt-5 ml-8'>
+        <div className='md:ml-60 flex justify-center mt-5 ml-8'>
         <Image src={skew} alt="" />
         </div>
       </div>
